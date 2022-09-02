@@ -1,13 +1,9 @@
 syntax = "proto3";
 
 package helloworld;
-option go_package = "./;pb";
-
-
-
+option go_package = "./";
 import "google/api/annotations.proto";
-
-// Here is the overall greeting service definition where we define all our endpoints
+// The greeting service definition
 service Greeter {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (HelloReply) {

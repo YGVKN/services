@@ -1,2 +1,1 @@
-# services
-grpc services
+# GO gRPC GateWay

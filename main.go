@@ -4,10 +4,11 @@ import (
 	"context"
 	"log"
 	"net"
+	"net/http"
 
-  "github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
+	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 	"google.golang.org/grpc"
-  //	"google.golang.org/grpc/credentials/insecure"
+	"google.golang.org/grpc/credentials/insecure"
 
 	helloworldpb "github.com/YGVKN/services/proto/helloworld"
 )

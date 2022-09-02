@@ -2,11 +2,11 @@
 // source: helloworld/hello_world.proto
 
 /*
-Package pb is a reverse proxy.
+Package __ is a reverse proxy.
 
 It translates gRPC into RESTful JSON APIs.
 */
-package pb
+package __
 
 import (
 	"context"
